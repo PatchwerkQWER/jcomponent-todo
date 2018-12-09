@@ -1,0 +1,31 @@
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+     background: -webkit-gradient(linear, left top, left bottom, from(#aeffae), to(#3d99ff));
+     background: linear-gradient(#aeffae, #3d99ff);
+     height: auto;
+     min-height: 100vh;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+}
+ .Logo {
+     width: 50px;
+     position: relative;
+     top: 50px;
+}
+ input {
+     width: 60%;
+     padding: 10px;
+     font-size: 1em;
+     margin: 10px auto;
+     -webkit-box-shadow: 1px 3px 20px 0px rgba(0, 0, 0, 0.3);
+     box-shadow: 1px 3px 20px 0px rgba(0, 0, 0, 0.3)
+}
