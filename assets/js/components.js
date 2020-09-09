@@ -111,6 +111,7 @@ COMPONENT('todo', function (self, config) {
 
 		self.html(template());
 		container = self.find('.ToDo-Content');
+		console.log('self.make');
 
 		self.event('click', '.ToDoItem-Delete', self.removeItem);
 		self.event('click', '.ToDo-Add', self.addItem);
